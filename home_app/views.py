@@ -11,3 +11,5 @@ def home(request):
         'post' : post
     }
     return render(request, 'home_app/index.html', context)
+
+

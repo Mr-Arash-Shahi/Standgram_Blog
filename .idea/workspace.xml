@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b9a3a68-2052-4dfb-bf6e-b815256faa57" name="Changes" comment="end post model and showing to home page">
+      <change beforePath="$PROJECT_DIR$/account_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/templates/account_app/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/templates/account_app/Register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/templates/account_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/templates/account_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/templates/account_app/profile_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/templates/account_app/profile_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/migrations/0002_post_riter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/templates/home_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standgram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/standgram/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standgram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/standgram/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/header.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C9LMI4TVr8K85Y3KRaufkWiumf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arash/Documents/Project/standgram/assets/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arash\Documents\Project\standgram\assets\css" />
+      <recent name="C:\Users\Arash\Documents\Project\standgram\templates" />
+      <recent name="C:\Users\Arash\Documents\Project\standgram\blogentries_app\templates\blogentries" />
+      <recent name="C:\Users\Arash\Documents\Project\standgram\home_app\templates" />
+      <recent name="C:\Users\Arash\Documents\Project\standgram\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arash\Documents\Project\standgram\media\images" />
+      <recent name="C:\Users\Arash\Documents\Project\standgram\home_app\templates\home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="standgram" type="Python.DjangoServer" factoryName="Django server">
+      <module name="standgram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="standgram.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b9a3a68-2052-4dfb-bf6e-b815256faa57" name="Changes" comment="" />
+      <created>1658209805206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658209805206</updated>
+      <workItem from="1658209834062" duration="1757000" />
+      <workItem from="1658240211869" duration="636000" />
+      <workItem from="1658737582069" duration="2128000" />
+      <workItem from="1658759221359" duration="3792000" />
+      <workItem from="1658843037791" duration="2170000" />
+      <workItem from="1658987590728" duration="697000" />
+      <workItem from="1659340454268" duration="1947000" />
+      <workItem from="1659370188254" duration="3640000" />
+      <workItem from="1659421838440" duration="11000" />
+      <workItem from="1659426619974" duration="673000" />
+      <workItem from="1659427486609" duration="60000" />
+      <workItem from="1659427569532" duration="3735000" />
+      <workItem from="1659593301046" duration="3041000" />
+      <workItem from="1659880052501" duration="1321000" />
+      <workItem from="1659893922263" duration="3902000" />
+      <workItem from="1659938699501" duration="9636000" />
+      <workItem from="1660034780572" duration="3043000" />
+      <workItem from="1660059155977" duration="3105000" />
+      <workItem from="1660073224081" duration="58000" />
+      <workItem from="1660192753299" duration="547000" />
+      <workItem from="1660204743926" duration="761000" />
+      <workItem from="1660232682646" duration="1209000" />
+      <workItem from="1660412166300" duration="6848000" />
+      <workItem from="1660587298250" duration="666000" />
+      <workItem from="1660635772686" duration="3798000" />
+      <workItem from="1660665112786" duration="1316000" />
+      <workItem from="1660670360147" duration="8672000" />
+      <workItem from="1660725785722" duration="593000" />
+      <workItem from="1660755055239" duration="4639000" />
+      <workItem from="1660806782279" duration="5062000" />
+      <workItem from="1660836835390" duration="5543000" />
+      <workItem from="1660850609565" duration="3800000" />
+      <workItem from="1660922275722" duration="2574000" />
+    </task>
+    <task id="LOCAL-00001" summary="end post model and showing to home page">
+      <created>1660419131876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660419131876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="end post model and showing to home page">
+      <created>1660420830401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660420830401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="end post model and showing to home page">
+      <created>1660421206396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660421206396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="end post model and showing to home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="end post model and showing to home page" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/account_app/templates/account_app/Register.html</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
