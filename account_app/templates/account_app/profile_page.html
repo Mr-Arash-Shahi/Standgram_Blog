@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="George W. Park">
-    <meta name="description" content="This project demonstrates how CSS grid (with flexbox and float fallback) can be used to re-create the layout of an Instagram profile page.">
+    <meta name="description"
+          content="This project demonstrates how CSS grid (with flexbox and float fallback) can be used to re-create the layout of an Instagram profile page.">
 
     <!-- Title -->
     <title>Profile</title>
@@ -22,21 +23,21 @@
 </head>
 <body>
 
-    <header>
+<header>
 
-        <div class="container">
-
+    <div class="container">
+        {% for user in user %}
             <div class="profile">
 
                 <div class="profile-image">
 
-                    <img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt="">
+                    <img src="{{ user.image.url }}" alt="">
 
                 </div>
 
                 <div class="profile-user-settings">
 
-                    <h1 class="profile-user-name">janedoe_</h1>
+                    <h1 class="profile-user-name">{{ user.fullname }}</h1>
 
                     <button class="btn profile-edit-btn">Edit Profile</button>
 
@@ -52,22 +53,24 @@
 
                 <div class="profile-bio">
 
-                    <p><h1 class="profile-real-name">Jane Doe</h1> Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️</p>
+                    <p>
+                    <h1 class="profile-real-name">Jane Doe</h1> Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                    📷✈️🏕️</p>
 
                 </div>
 
             </div>
             <!-- End of profile section -->
+        {% endfor %}
+    </div>
+    <!-- End of container -->
 
-        </div>
-        <!-- End of container -->
+</header>
 
-    </header>
-
-    <main>
+<main>
 
 
-    </main>
+</main>
 
 </body>
 </html>

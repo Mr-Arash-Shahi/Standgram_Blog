@@ -1,6 +1,10 @@
+from account_app.forms import EditForm
 from account_app.models import User
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect,  get_object_or_404
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import UserChangeForm
+from django.views import generic
+from django.urls import reverse_lazy
 # Create your views here.
 def register_user(request):
     context = {"errors": []}
@@ -46,9 +50,20 @@ def log_out(request):
     logout(request)
     return redirect('home_app:home')
 
-def profile(request):
+def profile(request, pk):
 
-    context = {}
+    user = get_object_or_404(User, id=pk)
+
+    context = {
+        'user' : user
+    }
 
     return render(request, 'account_app/profile_page.html', context)
 
+class EditView(generic.UpdateView):
+    form_class = EditForm
+    template_name = 'account_app/edit_profile.html'
+    success_url = reverse_lazy('home_app:home')
+
+    def get_object(self):
+        return self.request.user
