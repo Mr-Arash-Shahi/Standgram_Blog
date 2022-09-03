@@ -1,5 +1,5 @@
 from account_app.forms import EditForm
-from account_app.models import User
+from account_app.models import User, Profile
 from django.shortcuts import render, redirect,  get_object_or_404
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserChangeForm
@@ -51,14 +51,15 @@ def log_out(request):
     return redirect('home_app:home')
 
 def profile(request, pk):
-
-    user = get_object_or_404(User, id=pk)
+    user = User.objects.all()
+    user.get(id=pk)
 
     context = {
         'user' : user
     }
 
     return render(request, 'account_app/profile_page.html', context)
+
 
 class EditView(generic.UpdateView):
     form_class = EditForm

@@ -47,10 +47,10 @@
                                         <a href="{% url 'blogentries_app:detail' post.id %}"><h4>{{ post.title }}</h4></a>
                                         <ul class="post-info">
                                             <li><a href="#">{{ post.riter.fullname }}</a></li>
-                                            <li><a href="#">{{ post.date_published }}May 31, 2020</a></li>
+                                            <li><a href="#">{{ post.date_published }}</a></li>
                                             <li><a href="#">12 Comments</a></li>
                                         </ul>
-                                        <p>{{ post.body }}</p>
+                                        <p>{{ post.body|truncatewords:50 }}</p>
                                         <div class="post-options">
                                             <div class="row">
                                                 <div class="col-6">
