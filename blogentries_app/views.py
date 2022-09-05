@@ -14,9 +14,9 @@ def blogentries(request):
 
     return render(request, 'blogentries/blog.html', context)
 
-def detail(request, pk):
+def detail(request, slug):
 
-    post = get_object_or_404(Post, id=pk)
+    post = get_object_or_404(Post, slug=slug)
 
     context = {
         'post' : post

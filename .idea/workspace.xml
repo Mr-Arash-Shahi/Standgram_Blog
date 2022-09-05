@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2e6b124-ca1c-4475-ab59-4ebef6d17c5c" name="Changes" comment="add edit Profile and fix some bug">
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29e7fc4c-3655-450f-9dab-e01ddb7caad9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9148fc2f-b72c-4ea0-8752-31fde31184b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d86f0be5-d2c5-4a75-83b2-ea6165f301b3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus_app/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/account_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogentries_app/templates/blogentries/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/templates/blogentries/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_app/templates/home_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/media/blog-thumb-03.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,9 @@
       <workItem from="1661937597645" duration="2305000" />
       <workItem from="1661941740000" duration="246000" />
       <workItem from="1662201634856" duration="4194000" />
+      <workItem from="1662287051543" duration="2339000" />
+      <workItem from="1662358162588" duration="4017000" />
+      <workItem from="1662390702583" duration="4082000" />
     </task>
     <servers />
   </component>
