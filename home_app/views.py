@@ -6,9 +6,11 @@ from blogentries_app.models import Post
 def home(request):
 
     post = Post.objects.all()
+    recent_post = Post.objects.all()[:3]
 
     context = {
-        'post' : post
+        'post' : post,
+        'recent_post' : recent_post
     }
     return render(request, 'home_app/index.html', context)
 

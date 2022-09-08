@@ -18,8 +18,12 @@ class Post(models.Model):
     title = models.CharField(max_length=50, unique=True)
     body = models.TextField()
     date_published = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='images/post')
     slug = models.SlugField(unique=True, blank=True)
+
+    class Meta:
+        ordering = ('-date_published', 'updated',)
 
     def save(
         self, force_insert=False, force_update=False, using=None, update_fields=None

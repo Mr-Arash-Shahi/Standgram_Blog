@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e6b124-ca1c-4475-ab59-4ebef6d17c5c" name="Changes" comment="add edit Profile and fix some bug">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9148fc2f-b72c-4ea0-8752-31fde31184b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d86f0be5-d2c5-4a75-83b2-ea6165f301b3.xml" beforeDir="false" />
+    <list default="true" id="c50cbb70-99d0-4799-a617-2c9cc7e7426a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ad59cfe9-f61b-4f70-9576-9fb99e61c60d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/standgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/standgram.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account_app/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogentries_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogentries_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogentries_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogentries_app/templates/blogentries/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/templates/blogentries/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home_app/templates/home_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/templates/home_app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/media/blog-thumb-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/standgram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/standgram/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +26,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2E7D987XG9FaRWTzwKnRGNlVUct" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ETq4dcxvnPPvwGCYCGkJ3ORJHt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Allproject" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="standgram" type="Python.DjangoServer" factoryName="Django server">
       <module name="standgram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +47,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="standgram.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Arash\Documents\Project\standgram\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -69,32 +67,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2e6b124-ca1c-4475-ab59-4ebef6d17c5c" name="Changes" comment="add edit Profile and fix some bug" />
-      <created>1661937586641</created>
+      <changelist id="c50cbb70-99d0-4799-a617-2c9cc7e7426a" name="Changes" comment="" />
+      <created>1662629738231</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661937586641</updated>
-      <workItem from="1661937597645" duration="2305000" />
-      <workItem from="1661941740000" duration="246000" />
-      <workItem from="1662201634856" duration="4194000" />
-      <workItem from="1662287051543" duration="2339000" />
-      <workItem from="1662358162588" duration="4017000" />
-      <workItem from="1662390702583" duration="4082000" />
+      <updated>1662629738231</updated>
+      <workItem from="1662629744165" duration="469000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
