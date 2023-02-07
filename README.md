@@ -12,6 +12,6 @@ This Project Have a Professional Feature & Ability Same Social Media
 * Custum User Model
 * Search Bar
 * Hashtag & Share
-* Can Post a Article 
+* You Can Post a Article 
 * Like & Dislike with Ajax
 * Comment & Reply Comment
