@@ -18,11 +18,11 @@
                                         </div>
                                         <div class="down-content">
                                             <span>{{ post.category.all.0 }}</span>
-                                            <a href="{% url 'blogentries_app:detail' post.id %}"><h4>{{ post.title }}</h4></a>
+                                            <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
                                             <ul class="post-info">
                                                 <li><a href="#">{{ post.riter.fullname }}</a></li>
                                                 <li><a href="#">{{ post.date_published }}</a></li>
-                                                <li><a href="#">12 Comments</a></li>
+                                                <li><a href="#">Comment : {{ post.comments.count }}</a></li>
                                             </ul>
                                             <p>{{ post.body|truncatewords:50 }}</p>
                                             <div class="post-options">
@@ -41,12 +41,27 @@
                                 </div>
                             {% endfor %}
                             <div class="col-lg-12">
-                                <ul class="page-numbers">
-                                    <li><a href="#">1</a></li>
-                                    <li class="active"><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-                                </ul>
+                                {% if post.has_other_pages %}
+                                    <ul class="page-numbers">
+                                        {% if post.has_previous %}
+                                            <li><a href="?page={{ post.previous_page_number }}"><i
+                                                    class="fa fa-angle-double-left"></i></a></li>
+                                        {% endif %}
+
+                                        {% for i in post.paginator.page_range %}
+                                            {% if post.number == i %}
+                                                <li class="active"><a href="?page={{ i }}">{{ i }}</a></li>
+                                            {% else %}
+                                                <li><a href="?page={{ i }}">{{ i }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+
+                                        {% if post.has_next %}
+                                            <li><a href="?page={{ post.next_page_number }}"><i
+                                                    class="fa fa-angle-double-right"></i></a></li>
+                                        {% endif %}
+                                    </ul>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
