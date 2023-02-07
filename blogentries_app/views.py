@@ -40,3 +40,15 @@ def category_list(request, pk=None):
         'post': post
     }
     return render(request, 'blogentries_app/blog.html', context)
+
+
+def search(request):
+    q = request.GET.get('q')
+    post = Post.objects.filter(title__icontains=q)
+    page_number = request.GET.get('page')
+    paginator = Paginator(post, 3)
+    objects_list = paginator.get_page(page_number)
+    context = {
+        'post': objects_list
+    }
+    return render(request, 'blogentries_app/blog.html', context)
