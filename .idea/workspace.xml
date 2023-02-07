@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c50cbb70-99d0-4799-a617-2c9cc7e7426a" name="Changes" comment="add future Comment and Reply Comment">
+    <list default="true" id="c50cbb70-99d0-4799-a617-2c9cc7e7426a" name="Changes" comment="Add Search Tool with Pagination">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogentries_app/templates/blogentries_app/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/templates/blogentries_app/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogentries_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogentries_app/urls.py" afterDir="false" />
@@ -121,6 +121,7 @@
       <workItem from="1674332475878" duration="1044000" />
       <workItem from="1675274054508" duration="1740000" />
       <workItem from="1675760073570" duration="4525000" />
+      <workItem from="1675765356584" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="add future Comment and Reply Comment">
       <created>1675761203868</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675761203868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Search Tool with Pagination">
+      <created>1675766396014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675766396014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add future Comment and Reply Comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add future Comment and Reply Comment" />
+    <MESSAGE value="Add Search Tool with Pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Search Tool with Pagination" />
   </component>
 </project>
