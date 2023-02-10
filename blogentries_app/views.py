@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404
-from blogentries_app.models import Post, Category, Comment
+from django.shortcuts import render, get_object_or_404, redirect
+from django.views.generic import ListView, DetailView
+from blogentries_app.models import Post, Category, Comment, Like
 from django.core.paginator import Paginator
 
 # Create your views here.
@@ -52,3 +53,12 @@ def search(request):
         'post': objects_list
     }
     return render(request, 'blogentries_app/blog.html', context)
+
+def like(request, slug, pk):
+    try:
+        like = Like.objects.get(post__slug=slug, user_id=request.user.id)
+        like.delete()
+    except:
+        Like.objects.create(post_id=pk, user_id=request.user.id)
+
+    return redirect('blogentries_app:detail', slug,)

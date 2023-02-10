@@ -28,9 +28,11 @@
                                             <div class="row">
                                                 <div class="col-6">
                                                     <ul class="post-tags">
-                                                        <li><i class="fa fa-tags"></i></li>
-                                                        <li><a href="#">Best Templates</a>,</li>
-                                                        <li><a href="#">TemplateMo</a></li>
+                                                        <li>
+                                                            <a href="{% url "blogentries_app:like" post.slug post.id %}">
+                                                                <i style="font-size: 25px" class="fa fa-heart-o"> : {{ post.likes.count }}</i>
+                                                            </a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-6">
@@ -64,7 +66,8 @@
                                                             <p>{{ comment.body }}</p>
                                                             <button type="submit" id="form-submit"
                                                                     class="btn btn-outline-warning"
-                                                                    style="margin-top: 10px;margin-left: 500px;" onclick="set_value({{ comment.id }})">
+                                                                    style="margin-top: 10px;margin-left: 500px;"
+                                                                    onclick="set_value({{ comment.id }})">
                                                                 Reply
                                                             </button>
                                                         </div>
@@ -132,10 +135,10 @@
     </section>
     </body>
     <script>
-    function set_value(id){
-        document.getElementById('parent_id').value=id;
-        window.location.href = "#body"
-    }
+        function set_value(id) {
+            document.getElementById('parent_id').value = id;
+            window.location.href = "#body"
+        }
 
     </script>
 {% endblock %}

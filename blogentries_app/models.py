@@ -51,3 +51,12 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.body[:50]
+
+
+class Like(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='likes')
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='likes')
+
+
+    def __str__(self):
+        return f"{self.user.fullname} - {self.post.title}"
